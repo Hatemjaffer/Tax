@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>5eee25ef-b025-4a1d-8959-defb5675604f</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>TaxGrad</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="TaxGrad\My\MyApplication.cs" />
+    <Compile Include="TaxGrad\My\MyComputer.cs" />
+    <Compile Include="TaxGrad\My\MyProject.cs" />
+    <Compile Include="TaxGrad\Dialog1.cs" />
+    <Compile Include="TaxGrad\FrmEdara.cs" />
+    <Compile Include="TaxGrad\FrmEmp.cs" />
+    <Compile Include="TaxGrad\FrmKsm.cs" />
+    <Compile Include="TaxGrad\FrmNmodg.cs" />
+    <Compile Include="TaxGrad\FrmOssol.cs" />
+    <Compile Include="TaxGrad\FrmOssolType.cs" />
+    <Compile Include="TaxGrad\GardDataSet.cs" />
+    <Compile Include="TaxGrad\GardDataSetTableAdapters\EdaraTableAdapter.cs" />
+    <Compile Include="TaxGrad\GardDataSetTableAdapters\EmpTableAdapter.cs" />
+    <Compile Include="TaxGrad\GardDataSetTableAdapters\NmodgTableAdapter.cs" />
+    <Compile Include="TaxGrad\GardDataSetTableAdapters\OssolTableAdapter.cs" />
+    <Compile Include="TaxGrad\GardDataSetTableAdapters\UserTableAdapter.cs" />
+    <Compile Include="TaxGrad\GardDataSetTableAdapters\Ossol1TableAdapter.cs" />
+    <Compile Include="TaxGrad\GardDataSetTableAdapters\NmodgDDTableAdapter.cs" />
+    <Compile Include="TaxGrad\GardDataSetTableAdapters\Edara1TableAdapter.cs" />
+    <Compile Include="TaxGrad\GardDataSetTableAdapters\OssolTypeTableAdapter.cs" />
+    <Compile Include="TaxGrad\GardDataSetTableAdapters\OssolType1TableAdapter.cs" />
+    <Compile Include="TaxGrad\GardDataSetTableAdapters\KsmTableAdapter.cs" />
+    <Compile Include="TaxGrad\GardDataSetTableAdapters\Ksm1TableAdapter.cs" />
+    <Compile Include="TaxGrad\GardDataSetTableAdapters\TypeTableAdapter.cs" />
+    <Compile Include="TaxGrad\GardDataSetTableAdapters\Type1TableAdapter.cs" />
+    <Compile Include="TaxGrad\GardDataSetTableAdapters\NmodgDTableAdapter.cs" />
+    <Compile Include="TaxGrad\GardDataSetTableAdapters\TableAdapterManager.cs" />
+    <Compile Include="TaxGrad\My\Resources\Resources.cs" />
+    <Compile Include="TaxGrad\My\MySettings.cs" />
+    <EmbeddedResource Include="TaxGrad.FrmNmodg.resources" />
+    <EmbeddedResource Include="TaxGrad.Resources.resources" />
+    <EmbeddedResource Include="TaxGrad.FrmKsm.resources" />
+    <EmbeddedResource Include="TaxGrad.FrmEdara.resources" />
+    <EmbeddedResource Include="TaxGrad.Dialog1.resources" />
+    <EmbeddedResource Include="TaxGrad.FrmOssol.resources" />
+    <EmbeddedResource Include="TaxGrad.FrmOssolType.resources" />
+    <EmbeddedResource Include="TaxGrad.FrmEmp.resources" />
+  </ItemGroup>
+</Project>
