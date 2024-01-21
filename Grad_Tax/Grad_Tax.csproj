@@ -115,6 +115,42 @@
     <Compile Include="Mainplan2.Designer.cs">
       <DependentUpon>Mainplan2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Page1\Page_Users1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Page1\Page_Users1.Designer.cs">
+      <DependentUpon>Page_Users1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Page1\Page_Emp1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Page1\Page_Emp1.Designer.cs">
+      <DependentUpon>Page_Emp1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Page1\Page_Model1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Page1\Page_Model1.Designer.cs">
+      <DependentUpon>Page_Model1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Page1\Page_Osol_sup1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Page1\Page_Osol_sup1.Designer.cs">
+      <DependentUpon>Page_Osol_sup1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Page1\Page_Osol_Main1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Page1\Page_Osol_Main1.Designer.cs">
+      <DependentUpon>Page_Osol_Main1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Page1\Page_dep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Page1\Page_dep.Designer.cs">
+      <DependentUpon>Page_dep.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Page_Mangmen.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -194,6 +230,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Mainplan2.resx">
       <DependentUpon>Mainplan2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Page1\Page_Users1.resx">
+      <DependentUpon>Page_Users1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Page1\Page_Emp1.resx">
+      <DependentUpon>Page_Emp1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Page1\Page_Model1.resx">
+      <DependentUpon>Page_Model1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Page1\Page_Osol_sup1.resx">
+      <DependentUpon>Page_Osol_sup1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Page1\Page_Osol_Main1.resx">
+      <DependentUpon>Page_Osol_Main1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Page1\Page_dep.resx">
+      <DependentUpon>Page_dep.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\Page_Mangmen.resx">
       <DependentUpon>Page_Mangmen.cs</DependentUpon>

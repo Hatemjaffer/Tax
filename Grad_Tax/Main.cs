@@ -11,7 +11,7 @@ using DevExpress.XtraEditors;
 using Grad_Tax.Pages;
 
 namespace Grad_Tax
-{
+{  //main page
     public partial class Main : DevExpress.XtraBars.FluentDesignSystem.FluentDesignForm
     {
         public Main()
@@ -34,7 +34,7 @@ namespace Grad_Tax
 
         private void accordionControlElement7_Click(object sender, EventArgs e)
         {
-            var pages = new Page_Model();
+            var pages = new Page_Model1();
             lb_state1.Caption = accordionControlElement7.Text;
             LoadPage(pages);
         }
@@ -48,28 +48,28 @@ namespace Grad_Tax
 
         private void accordionControlElement9_Click(object sender, EventArgs e)
         {
-            var pages = new Page_department();
+            var pages = new Page_dep();
             lb_state1.Caption = accordionControlElement9.Text;
             LoadPage(pages);
         }
 
         private void accordionControlElement10_Click(object sender, EventArgs e)
         {
-            var pages = new Page_Osol_Main();
+            var pages = new Page_Osol_Main1();
             lb_state1.Caption = accordionControlElement10.Text;
             LoadPage(pages);
         }
 
         private void accordionControlElement11_Click(object sender, EventArgs e)
         {
-            var pages = new Page_Osol_sup();
+            var pages = new Page_Osol_sup1();
             lb_state1.Caption = accordionControlElement11.Text;
             LoadPage(pages);
         }
 
         private void accordionControlElement12_Click(object sender, EventArgs e)
         {
-            var pages = new Page_Emp();
+            var pages = new Page_Emp1();
             lb_state1.Caption = accordionControlElement12.Text;
             LoadPage(pages);
         }

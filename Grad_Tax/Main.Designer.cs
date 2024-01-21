@@ -103,8 +103,14 @@
             // 
             // accordionControlElement7
             // 
+            this.accordionControlElement7.Appearance.Hovered.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold);
+            this.accordionControlElement7.Appearance.Hovered.Options.UseFont = true;
             this.accordionControlElement7.Appearance.Normal.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accordionControlElement7.Appearance.Normal.ForeColor = System.Drawing.Color.White;
             this.accordionControlElement7.Appearance.Normal.Options.UseFont = true;
+            this.accordionControlElement7.Appearance.Normal.Options.UseForeColor = true;
+            this.accordionControlElement7.Appearance.Pressed.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold);
+            this.accordionControlElement7.Appearance.Pressed.Options.UseFont = true;
             this.accordionControlElement7.Name = "accordionControlElement7";
             this.accordionControlElement7.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.accordionControlElement7.Text = "نمودج الجرد";
@@ -122,14 +128,21 @@
             this.accordionControlElement10,
             this.accordionControlElement11,
             this.accordionControlElement12});
+            this.accordionControlElement2.Expanded = true;
             this.accordionControlElement2.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("accordionControlElement2.ImageOptions.SvgImage")));
             this.accordionControlElement2.Name = "accordionControlElement2";
             this.accordionControlElement2.Text = "البيانات المساعدة";
             // 
             // accordionControlElement8
             // 
+            this.accordionControlElement8.Appearance.Hovered.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold);
+            this.accordionControlElement8.Appearance.Hovered.Options.UseFont = true;
             this.accordionControlElement8.Appearance.Normal.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accordionControlElement8.Appearance.Normal.ForeColor = System.Drawing.Color.White;
             this.accordionControlElement8.Appearance.Normal.Options.UseFont = true;
+            this.accordionControlElement8.Appearance.Normal.Options.UseForeColor = true;
+            this.accordionControlElement8.Appearance.Pressed.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold);
+            this.accordionControlElement8.Appearance.Pressed.Options.UseFont = true;
             this.accordionControlElement8.Name = "accordionControlElement8";
             this.accordionControlElement8.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.accordionControlElement8.Text = "بيانات الادارات";
@@ -137,8 +150,14 @@
             // 
             // accordionControlElement9
             // 
+            this.accordionControlElement9.Appearance.Hovered.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold);
+            this.accordionControlElement9.Appearance.Hovered.Options.UseFont = true;
             this.accordionControlElement9.Appearance.Normal.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accordionControlElement9.Appearance.Normal.ForeColor = System.Drawing.Color.White;
             this.accordionControlElement9.Appearance.Normal.Options.UseFont = true;
+            this.accordionControlElement9.Appearance.Normal.Options.UseForeColor = true;
+            this.accordionControlElement9.Appearance.Pressed.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold);
+            this.accordionControlElement9.Appearance.Pressed.Options.UseFont = true;
             this.accordionControlElement9.Name = "accordionControlElement9";
             this.accordionControlElement9.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.accordionControlElement9.Text = "بيانات الاقسام";
@@ -146,8 +165,14 @@
             // 
             // accordionControlElement10
             // 
+            this.accordionControlElement10.Appearance.Hovered.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold);
+            this.accordionControlElement10.Appearance.Hovered.Options.UseFont = true;
             this.accordionControlElement10.Appearance.Normal.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accordionControlElement10.Appearance.Normal.ForeColor = System.Drawing.Color.White;
             this.accordionControlElement10.Appearance.Normal.Options.UseFont = true;
+            this.accordionControlElement10.Appearance.Normal.Options.UseForeColor = true;
+            this.accordionControlElement10.Appearance.Pressed.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold);
+            this.accordionControlElement10.Appearance.Pressed.Options.UseFont = true;
             this.accordionControlElement10.Name = "accordionControlElement10";
             this.accordionControlElement10.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.accordionControlElement10.Text = "الاصول الريئسية";
@@ -155,8 +180,14 @@
             // 
             // accordionControlElement11
             // 
+            this.accordionControlElement11.Appearance.Hovered.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold);
+            this.accordionControlElement11.Appearance.Hovered.Options.UseFont = true;
             this.accordionControlElement11.Appearance.Normal.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accordionControlElement11.Appearance.Normal.ForeColor = System.Drawing.Color.White;
             this.accordionControlElement11.Appearance.Normal.Options.UseFont = true;
+            this.accordionControlElement11.Appearance.Normal.Options.UseForeColor = true;
+            this.accordionControlElement11.Appearance.Pressed.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold);
+            this.accordionControlElement11.Appearance.Pressed.Options.UseFont = true;
             this.accordionControlElement11.Name = "accordionControlElement11";
             this.accordionControlElement11.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.accordionControlElement11.Text = "الاصول الفرعية";
@@ -164,8 +195,14 @@
             // 
             // accordionControlElement12
             // 
+            this.accordionControlElement12.Appearance.Hovered.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold);
+            this.accordionControlElement12.Appearance.Hovered.Options.UseFont = true;
             this.accordionControlElement12.Appearance.Normal.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.accordionControlElement12.Appearance.Normal.ForeColor = System.Drawing.Color.White;
             this.accordionControlElement12.Appearance.Normal.Options.UseFont = true;
+            this.accordionControlElement12.Appearance.Normal.Options.UseForeColor = true;
+            this.accordionControlElement12.Appearance.Pressed.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold);
+            this.accordionControlElement12.Appearance.Pressed.Options.UseFont = true;
             this.accordionControlElement12.Name = "accordionControlElement12";
             this.accordionControlElement12.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.accordionControlElement12.Text = "بيانات الموظف";
@@ -198,7 +235,9 @@
             // accordionControlElement13
             // 
             this.accordionControlElement13.Appearance.Normal.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accordionControlElement13.Appearance.Normal.ForeColor = System.Drawing.Color.White;
             this.accordionControlElement13.Appearance.Normal.Options.UseFont = true;
+            this.accordionControlElement13.Appearance.Normal.Options.UseForeColor = true;
             this.accordionControlElement13.Name = "accordionControlElement13";
             this.accordionControlElement13.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.accordionControlElement13.Text = "بيانات المستخدمين";
@@ -207,7 +246,9 @@
             // accordionControlElement14
             // 
             this.accordionControlElement14.Appearance.Normal.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.accordionControlElement14.Appearance.Normal.ForeColor = System.Drawing.Color.White;
             this.accordionControlElement14.Appearance.Normal.Options.UseFont = true;
+            this.accordionControlElement14.Appearance.Normal.Options.UseForeColor = true;
             this.accordionControlElement14.Name = "accordionControlElement14";
             this.accordionControlElement14.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.accordionControlElement14.Text = "نسخ الاحطياطي";
@@ -221,7 +262,9 @@
             this.accordionControlElement5.Appearance.Hovered.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.accordionControlElement5.Appearance.Hovered.Options.UseFont = true;
             this.accordionControlElement5.Appearance.Normal.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accordionControlElement5.Appearance.Normal.ForeColor = System.Drawing.Color.White;
             this.accordionControlElement5.Appearance.Normal.Options.UseFont = true;
+            this.accordionControlElement5.Appearance.Normal.Options.UseForeColor = true;
             this.accordionControlElement5.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("accordionControlElement5.ImageOptions.SvgImage")));
             this.accordionControlElement5.Name = "accordionControlElement5";
             this.accordionControlElement5.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
@@ -232,7 +275,9 @@
             this.accordionControlElement6.Appearance.Hovered.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.accordionControlElement6.Appearance.Hovered.Options.UseFont = true;
             this.accordionControlElement6.Appearance.Normal.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accordionControlElement6.Appearance.Normal.ForeColor = System.Drawing.Color.White;
             this.accordionControlElement6.Appearance.Normal.Options.UseFont = true;
+            this.accordionControlElement6.Appearance.Normal.Options.UseForeColor = true;
             this.accordionControlElement6.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("accordionControlElement6.ImageOptions.SvgImage")));
             this.accordionControlElement6.Name = "accordionControlElement6";
             this.accordionControlElement6.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;

@@ -9,7 +9,7 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
 namespace Grad_Tax
-{
+{ //main page 2
     public partial class Mainplan2 : DevExpress.XtraBars.TabForm
     {
         public Mainplan2()
